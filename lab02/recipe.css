@@ -1,0 +1,9 @@
+
+body
+{background-color: black;
+	 color: #0022ff; 
+	 font-family: Verdana, sans-serif;}
+p{font-size: 0.88em;}
+h1, h2 {text-transform: uppercase;}
+h2{color: #FF0000; font-weight: bold;}
+body {margin: auto;}
