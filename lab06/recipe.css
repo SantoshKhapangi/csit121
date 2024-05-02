@@ -1,0 +1,27 @@
+
+
+
+
+
+body{
+	color: #00FF00; 
+	 font-family: Verdana, sans-serif;}
+	 main {float: left;
+		 }
+		footer {margin-left: 160px;}
+		p {color: yellowgreen}
+		#epi {padding: 8px}
+		
+
+		 a:link { color: darkblue;}
+ a:visited {color: #B0098E; } 
+ a:hover {color:  darkgoldenrod;}
+
+ @media (min-width: 768px){
+	img {display: grid; margin: auto;}
+	nav li { display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start; text-decoration-thickness: 14px; font-size: large; color: brown;}
+	footer{text-align: center; background-color: white;}
+
