@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Form elements</title>
+	<link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+
+   <form>
+	<h1> Here are five elements of forms. </h1>
+	<h3> 1. Input Element </h3>
+		<p> Description: The input element is a stand-alone, or void, tag that is used to configure several different types of form controls.
+			There are many input elements like: Text box, submit button, radio button, checkbox, reset button and password box. All of them colleect 
+		information in their own ways. Here is a radio button example;</p>
+
+		Select your favorite food:<br>
+<input type="radio" name="Cat soup" id="fav1a" value="Cat1"> Cat Soup
+<br>
+<input type="radio" name="Dog thigh" id="favlb" value="cag1"> Dog Thigh
+<br>
+<input type="radio" name="Bones" id="fav2c" value="human1"> Human Skull
+
+<h3> 2. Textarea </h3>
+		<p> Description: The scrolling text box form control accepts free-form comments, questions, or descriptions. 
+			The textarea element configures a scrolling text box. An example of textarea element: </p>
+			Write review:<br>
+<textarea name="review" id="comment" rows="2"
+cols="40"></textarea><br><br>
+
+<h3> 3. Fieldset Element</h3>
+        <p>fieldset element causes the browser to render a visual cue, such as an outline or a border,
+			 around form elements grouped together within the fieldset. Here is an example: </p>
+			 <fieldset>
+				<legend>Your Favorite Cuisine:</legend>
+			<label>Choose one:-</label>
+			<select name="foodlist" size="4" tabindex="3" id="favfood" multiple>
+				<option value="Korean Dog soups.">Korean cat soup</option>
+				<option value="Chinese dog-meat balls.">Chinese Dog meat</option>
+				<option value="Italian leg" disabled>Italian human leg</option>
+				<option value="Human heart" selected>Human heart</option>
+			</select>
+			</fieldset><br><hr>
+
+<h3> 4. Button Element </h3>
+<p>  Button Element can be used to configure images and blocks of text as 
+	the selectable area that can submit or reset a form. Here's an ex;</p>
+	<button type="submit"> 
+		Submit
+	</button>
+
+	<h3> 5. Select element </h3>
+	<p> The select element contains and configures the select list form control. 
+		The Attributes configure the number of options to display and whether
+		 more than one option item may be selected. </p>
+		<label for="drink">choose:</label>
+		<select name="favdrink" size="3" id="drink" multiple>
+			<option value="cat">Cat heart soup</option>
+			<option value="rhino"> Rhino flesh drink</option>
+			<option value="horse"> Horse soup</option>
+		</select>
+
+
+
+   </form>
+</body>
+</html>
